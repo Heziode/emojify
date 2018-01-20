@@ -1,0 +1,20 @@
+{
+    "name": "emojify",
+    "version": "1.0.0",
+    "description": "Emoji on the command line 🎉",
+    "main": "converter.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "emoji",
+        "command",
+        "line"
+    ],
+    "author": "Heziode <Heziode@protonmail.com>",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "request": "^2.83.0"
+    }
+}
