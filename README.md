@@ -2,6 +2,8 @@
 
 Binding of [emojify (bash version)](https://github.com/mrowa44/emojify) to fix issues (unnecessary space, punctuation chars, etc.)
 
+>   This script is based on [emojione](https://github.com/emojione/emojione) emoji.
+
 
 
 ## Emoji on the command line:tada:
