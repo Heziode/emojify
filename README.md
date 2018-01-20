@@ -12,7 +12,7 @@ Basically, emojify substitutes emoji aliases that many services (like [GitHub](h
 
 ## Installation
 
-[emojify](https://github.com/heziode/emojify/blob/master/emojify) is a shell script, so put it somewhere and make sure it's added to your `$PATH`.
+[emojify](https://github.com/heziode/emojify/blob/master/emojify) is a perl script, so put it somewhere and make sure it's added to your `$PATH`.
 
 Here's a one-liner:
 

@@ -2683,7 +2683,7 @@ sub uniq {
 
 # Gets emoji from the associative array
 # 1 arg, must be a key
-# Returns raw emoji character or word
+# Returns raw emoji character or empty string
 sub get_emoji_if_exist {
     my $n = scalar (@_);
 
@@ -2720,9 +2720,9 @@ sub to_emoji {
 # Show usage
 sub help {
     my $usage = <<EOF;
-   emojify - emoji on the command line 🎉
+emojify - emoji on the command line 🎉
 
-   \tUSAGE: emojify [-h|--help] [-l|--list] TEXT
+\tUSAGE: emojify [-h|--help] [-l|--list] TEXT
 EOF
 
     print (encode ('UTF-8', $usage));
