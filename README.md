@@ -77,6 +77,13 @@ To invoke help run `emojify -h`.
 
 
 
+
+## Changelog
+
+See [CHANGELOG.md](https://github.com/Heziode/emojify/blob/master/CHANGELOG.md)
+
+
+
 ## License
 
 MIT
