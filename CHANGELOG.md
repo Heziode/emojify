@@ -2,6 +2,12 @@
 
 ## 1.x
 
+### 1.2.x
+
+#### 1.2.0
+
+-   Add version in perl script
+
 ### 1.1.x
 
 #### 1.1.0

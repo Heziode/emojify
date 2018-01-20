@@ -5,6 +5,8 @@ use Getopt::Long;
 use utf8;
 use Encode;
 
+my $VERSION = "1.2.0";
+
 my %data = (
     # List based on https://github.com/emojione/emojione
 
@@ -4089,9 +4091,9 @@ sub to_emoji {
 # Show usage
 sub help {
     my $usage = <<EOF;
-emojify - emoji on the command line 🎉
+Emojify - emoji on the command line 🎉
 
-\tUSAGE: emojify [-h|--help] [-l|--list] TEXT
+\tUSAGE: emojify [-l|--list] [-v|--version] [-h|--help] TEXT
 EOF
 
     print (encode ('UTF-8', $usage));
@@ -4104,25 +4106,35 @@ sub list {
     }
 }
 
+# Show version
+sub version {
+    print ("Emojify version $VERSION\n");
+}
+
 ########
 # MAIN #
 ########
 
 if (-t STDIN) {
-    my $cloption_help = 0;
-    my $cloption_list = 0;
+    my $cloption_help    = 0;
+    my $cloption_list    = 0;
+    my $cloption_version = 0;
 
     my ($cl_arg) = join (' ', @ARGV);
     my $nb_arg = scalar (@ARGV);
 
     GetOptions ("list|l" => \$cloption_list,
-        "help|h"         => \$cloption_help);
+        "help|h"         => \$cloption_help,
+        "version|v"      => \$cloption_version);
 
     if (($cloption_help == 1) or ($nb_arg == 0)) {
         help;
     }
     elsif ($cloption_list == 1) {
         list
+    }
+    elsif ($cloption_version == 1) {
+        version;
     }
     else {
         print (encode ('UTF-8', to_emoji (decode ('UTF-8', $cl_arg))) . "\n");
