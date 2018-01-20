@@ -1,8 +1,7 @@
 # Emojify
 
+Binding of [emojify (bash version)](https://github.com/mrowa44/emojify) to fix issues (unnecessary space, punctuation chars, etc.)
 
-
-Binding of [emojify (bash version)](https://github.com/mrowa44/emojify) for fixing issues.
 
 
 ## Emoji on the command line:tada:
