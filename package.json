@@ -1,6 +1,6 @@
 {
     "name": "emojify",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Emoji on the command line 🎉",
     "main": "converter.js",
     "scripts": {
