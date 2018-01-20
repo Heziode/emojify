@@ -5,8 +5,7 @@
 Binding of [emojify (bash version)](https://github.com/mrowa44/emojify) for fixing issues.
 
 
-
-​## Emoji on the command line:tada:
+## Emoji on the command line:tada:
 
 Basically, emojify substitutes emoji aliases that many services (like [GitHub](https://github.com/)) use for emoji raw characters.
 
