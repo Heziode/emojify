@@ -4,6 +4,10 @@
 
 ### 1.2.x
 
+#### 1.3.0
+
+-   Update to [emojione](https://github.com/emojione/emojione) version 4.0.0
+
 #### 1.2.0
 
 -   Add version in perl script

@@ -5,7 +5,7 @@ use Getopt::Long;
 use utf8;
 use Encode;
 
-my $VERSION = "1.2.0";
+my $VERSION = "1.3.0";
 
 my %data = (
     # List based on https://github.com/emojione/emojione
